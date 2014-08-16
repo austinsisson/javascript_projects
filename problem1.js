@@ -26,5 +26,3 @@ var input = 1000
 
 var answer = solution(input);
 console.log(answer);
-
-YAHOO!
