@@ -14,7 +14,7 @@ four million, find the sum of the even-valued terms.
 
 var sequence = [];
 
-function fibonacciForLoop(n) {
+function fibonacci(n) {
  
     for (var index = 0; index < n; index++) {
         sequence.push(index < 2 ? index : (sequence[index - 2] + sequence[index - 1]));
@@ -28,7 +28,7 @@ function evens(num) {
 }
 
 
-fibonacciForLoop(34);
+fibonacci(34);
 
 sequence.filter(evens);
 
